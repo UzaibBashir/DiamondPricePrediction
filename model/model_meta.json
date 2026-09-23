@@ -1,0 +1,53 @@
+{
+  "model_name": "Random Forest (Tuned)",
+  "target": "price",
+  "features": [
+    "carat",
+    "cut",
+    "color",
+    "clarity",
+    "depth",
+    "table",
+    "x",
+    "y",
+    "z",
+    "volume",
+    "density",
+    "log_carat"
+  ],
+  "categorical_orders": {
+    "cut": [
+      "Fair",
+      "Good",
+      "Very Good",
+      "Premium",
+      "Ideal"
+    ],
+    "color": [
+      "J",
+      "I",
+      "H",
+      "G",
+      "F",
+      "E",
+      "D"
+    ],
+    "clarity": [
+      "I1",
+      "SI2",
+      "SI1",
+      "VS2",
+      "VS1",
+      "VVS2",
+      "VVS1",
+      "IF"
+    ]
+  },
+  "metrics": {
+    "Model": "Random Forest (Tuned)",
+    "R2": 0.982035857185122,
+    "RMSE": 536.6565521523684,
+    "MAE": 262.6892844418253,
+    "MAPE": 0.06621106539906249
+  }
+}
